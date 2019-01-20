@@ -6,8 +6,20 @@
 # dir()
 setwd("~/projects/r-lang/basic")
 prenoms = read.csv("prenoms-quebec.csv", header = TRUE)
+str(prenoms)
 
-# prenoms <- source("crimes.csv")
-# names(prenoms)
-# prenoms
-subset(prenoms, 1984==1)
+# browseURL("http://danyellow.net")
+# x <- 9; x
+# x
+# # prenoms <- source("crimes.csv")
+# # names(prenoms)
+# # prenoms
+# freq <- table(prenoms$X1991)
+# rank <- rank(prenoms$X1991)
+# hist(rank)
+# describe(rank)
+# # freq <- freq[order(freq, decreasing = T)]
+# # freq
+# 
+# n2 <- rnorm(1000)
+# hist(n2)
